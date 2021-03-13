@@ -1,0 +1,19 @@
+# Copied from mac, not sure how to
+# create automatically, happens ok on mac
+# Now ignoring .idea, which didn't do on mac
+*.iml
+# https://stackoverflow.com/questions/35765386/is-it-safe-to-delete-the-gradle-folder-in-android-studio
+#Inside the project you can find the .gradle folder.
+#Inside you can find all settings and other files used by gradle to build the project. You can delete these files without problems. Gradle will recreate it.
+#Also these file are not committed and Version Control Systems. It means that when you checkout the project these files are not present on the project.
+.gradle
+.idea
+/local.properties
+/.idea/workspace.xml
+/.idea/libraries
+.DS_Store
+**/build
+/captures
+log*
+*~
+*#*
